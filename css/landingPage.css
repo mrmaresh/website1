@@ -2,7 +2,8 @@
 
 :root {
   --primary-color: rgb(48,51,107);
-  
+  --secondary-color: #be2edd;
+
 }
 
 * {
