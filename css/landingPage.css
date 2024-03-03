@@ -51,4 +51,5 @@ nav ul li a:hover {
 
 nav ul {
   list-style-type: none;
+  padding: 0;
 }
