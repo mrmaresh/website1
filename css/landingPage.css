@@ -141,7 +141,7 @@ input[type='submit'] {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   animation-name: modalopen;
-  animation-duration: var(--model-duration);
+  animation-duration: var(--modal-duration);
 }
 
 @keyframes modalopen {
