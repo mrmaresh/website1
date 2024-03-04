@@ -126,7 +126,7 @@ input[type='submit'] {
   display: none;
 }
 
-.modal-container.show-model {
+.modal-container.show-modal {
   display: block;
 }
 
