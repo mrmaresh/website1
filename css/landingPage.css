@@ -144,7 +144,14 @@ input[type='submit'] {
   animation-duration: var(--model-duration);
 }
 
-
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 
 
