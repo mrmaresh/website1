@@ -10,18 +10,14 @@ toggle.addEventListener('click', () => {
 
 // Show Modal
 open.addEventListener('click', () => {
-  modal.classList.add('show-modal')
+  modal.classList.add('show-model')
 })
 
 // Hide Modal
 close.addEventListener('click', () => {
-  modal.classList.remove('show-modal')
+  modal.classList.remove('show-model')
 })
 
-// Hide Model on outside click
-// window.addEventListener('click', e =>
-//   e.target == modal ? modal.classList.remove('show-modal') : false
-// )
 
 window.addEventListener('click', (e) => {
   if (e.target == modal) {
