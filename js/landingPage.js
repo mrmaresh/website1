@@ -23,9 +23,9 @@ close.addEventListener('click', () => {
 //   e.target == modal ? modal.classList.remove('show-modal') : false
 // )
 
-window.addEventListener('click', e => {
+window.addEventListener('click', (e) => {
   if (e.target == modal) {
-    model.classList.remove('show-modal')
+    modal.classList.remove('show-modal')
   }
 }
 
