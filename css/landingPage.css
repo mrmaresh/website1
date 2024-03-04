@@ -161,3 +161,11 @@ modal-header h3 {
   padding: 8px;
   width: 100%;
 }
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  font-size: 25px;
+}
