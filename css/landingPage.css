@@ -117,5 +117,14 @@ input[type='submit'] {
   bottom: 0;
   left: 0;
   right: 0;
-  background
+  background-color: rgba(0,0,0,0.6);
+  /* display: none; */
+}
+
+.modal {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%; -50%);
 }
