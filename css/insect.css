@@ -15,6 +15,7 @@ body {
 
 .choose-insect-btn img {
   height: 100px;
+  width: 100px;
   object-fit: contain;
 }
 
@@ -25,7 +26,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: margin 0.5s ease-in;
+  transition: margin 0.5s ease-out;
 }
 
 .btn {
